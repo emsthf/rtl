@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker run
+
+```
+docker pull node:16.14.0-buster
+docker run -itd --name rtl -p 3000:3000 node:16.14.0-buster
+```
+
+## react-testing-library
+
+```
+npm i react-testing-library
+```
+
+## setupTest.js
+
+```
+import "react-testing-library/cleanup-after-each";
+import "jest-dom/extend-expect";
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

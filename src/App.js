@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Profile from "./Profile";
+import Counter from "./Counter";
 
 function App() {
   return (
     <div className="App">
+      <Counter />
+      <Profile username="emsthf" name="든솔" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
